@@ -17,9 +17,7 @@ CREATE TABLE users (
     age INT
 );
 
-INSERT INTO users (name, email, age) VALUES
-('Alice', 'alice@example.com', 25),
-('Bob', 'bob@example.com', 30);
+s
 
 SELECT * FROM users;
 ```
@@ -47,4 +45,8 @@ db.students.find()
 ```
 ## Submit screenshots demonstrating:
 * RDS MySQL Queries (User table, Join results).
+![MySQL DB](DB.png)
+![Result](Queries.png)
 * DocumentDB MongoDB Queries (Users and nested orders).
+![DocumentDB](DocDB.png)
+![Result](DocDBQueries.png)
